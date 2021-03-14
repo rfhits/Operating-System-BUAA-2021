@@ -137,3 +137,11 @@ grep - print lines matching a pattern
 分割然后输出
 
 详见[此](https://blog.51cto.com/bubble/1179036)。
+
+## 变量的赋值、运算
+
+详见[此](https://www.cnblogs.com/hjnzs/p/12218467.html)。
+
+## git
+
+试题见[此](https://blog.csdn.net/weixin_45086881/article/details/90610606)。
