@@ -51,16 +51,6 @@ mkdir Test && cp -r ./be_copied/* ./Test
 
 第二条指令只会把`be_copied`文件夹**内的文件**拷贝到`Test`文件夹内。不要忽视了`-r`这个参数，如果`be_copied`里面还有其他文件夹，不用`-r`是不会被拷贝的。
 
-## 基础操作介绍
-
-find: 在文件夹下找文件
-
-grep：在文件内找文本
-
-ctags？？：这个东西很好用啊，你们自己去找资料看怎么用。
-
-吐槽：菜狗真滴找不到，找到了也看不懂
-
 ## 分屏
 
 使用tmux，要了解：会话-窗口（window）-窗格（pane）三个概念。
@@ -87,7 +77,7 @@ ctags？？：这个东西很好用啊，你们自己去找资料看怎么用。
 gcc filenamegcc filename_1 -o filename_2
 ```
 
-3多个程序文件的编译
+多个程序文件的编译
 
 通常整个程序是由多个源文件组成的，相应地也就形成了多个编译单元，使用GCC能够很好地管理这些编译单元。假设有一个由test1.c和 test2.c两个源文件组成的程序，为了对它们进行编译，并最终生成可执行程序test，可以使用下面这条命令：
 
@@ -108,10 +98,6 @@ gcc test1.c test2.c -o test
 [简易教程](https://www.bilibili.com/video/BV1Mx411m7fm)
 
 [强者教程](https://seisman.github.io/how-to-write-makefile/introduction.html)——由讨论区大佬提供
-
-## git add
-
-详见[此](https://blog.csdn.net/qq_42351033/article/details/89765281)。
 
 ## grep
 
