@@ -10,7 +10,7 @@
 ssh your_student_ID@buaaos.studio
 ```
 
-尝试登陆平台。推荐使用工具链文章中这个[教程](https://blog.csdn.net/qq_46359697/article/details/107756317)来美化`Git Bash`。后续还可以为其添加make等功能，详见工具链文章。
+尝试登陆平台。推荐使用工具链文章中这个[教程](https://blog.csdn.net/qq_46359697/article/details/107756317)来美化`Git Bash`。后续还可以为其添加make等功能，直接在自己的电脑上做实验，详情请见工具链文章。
 
 ## 文件操作
 
