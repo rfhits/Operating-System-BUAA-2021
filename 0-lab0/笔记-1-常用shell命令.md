@@ -1,4 +1,24 @@
-# 常用shell命令
+# lab0笔记
+
+## 操作系统的历史
+
+[Multics和Unix](https://zhuanlan.zhihu.com/p/38592828)
+
+Ken Thompson 和 Dennis Ritchie
+
+[Unix和Linux](http://c.biancheng.net/view/707.html)
+
+[GNU和Linux](https://www.zhihu.com/question/319783573/answer/656033035)
+
+在看上面的这些历史材料时，可能会遇到一些缩写：
+
+[AT&T](https://baike.baidu.com/item/%E7%BE%8E%E5%9B%BD%E7%94%B5%E8%AF%9D%E7%94%B5%E6%8A%A5%E5%85%AC%E5%8F%B8/3454291?)：American Telephone & Telegraph Company，是美国的一家商业公司。
+
+UCB：University of California, Berkeley，加利福尼亚大学伯克利分校。
+
+[GPL](https://blog.51cto.com/itomc/45433?)：一个协议，没有代码，类似《共产主义宣言》。
+
+## 常用shell命令
 
 要熟练地掌握命令，最好的方法，就是自己动手做一遍。可以新建一个Test文件夹，里面放个hello.txt，然后跟着课程网址上的教程做。
 
@@ -12,9 +32,9 @@ ssh your_student_ID@buaaos.studio
 
 尝试登陆平台。推荐使用工具链文章中这个[教程](https://blog.csdn.net/qq_46359697/article/details/107756317)来美化`Git Bash`。后续还可以为其添加make等功能，直接在自己的电脑上做实验，详情请见工具链文章。
 
-## 文件操作
+### 文件操作
 
-### 新建，修改、删除、复制和移动
+#### 新建，修改、删除、复制和移动
 
 过于简单，见cscore即可，会用下面的命令即可。
 
@@ -22,13 +42,9 @@ ssh your_student_ID@buaaos.studio
 touch vim rm cp mv
 ```
 
-## 目录
+### 目录
 
-### 新建和移动
-
-简单
-
-### 删除
+#### 删除
 
 忘记`rmdir`吧。。。
 
@@ -36,7 +52,7 @@ touch vim rm cp mv
 rm -r dir_name
 ```
 
-### 拷贝
+#### 拷贝
 
 将一个整个文件夹，或者其内部的文件拷贝到另一个文件夹中，可以利用`cp -r`，`r`表示`recursion`，就是递归。使用过`rm -r dir_name`的话，一定不会陌生。
 
@@ -51,7 +67,7 @@ mkdir Test && cp -r ./be_copied/* ./Test
 
 第二条指令只会把`be_copied`文件夹**内的文件**拷贝到`Test`文件夹内。不要忽视了`-r`这个参数，如果`be_copied`里面还有其他文件夹，不用`-r`是不会被拷贝的。
 
-## 分屏
+### 分屏
 
 使用tmux，要了解：会话-窗口（window）-窗格（pane）三个概念。
 
@@ -69,7 +85,7 @@ mkdir Test && cp -r ./be_copied/* ./Test
 
 `tmux kill-pane -a`关闭所有pane
 
-## 编译
+### 编译
 
 按下gcc --help看
 
@@ -85,7 +101,7 @@ gcc test1.c test2.c -o test
 
 详见[此](https://www.cnblogs.com/ggjucheng/archive/2011/12/14/2287738.html)。
 
-## vim复制粘贴
+### vim复制粘贴
 
 复制当前行：yy，复制5行：y5y
 
@@ -93,13 +109,13 @@ gcc test1.c test2.c -o test
 
 粘贴：p
 
-## makefile
+### makefile
 
 [简易教程](https://www.bilibili.com/video/BV1Mx411m7fm)
 
 [强者教程](https://seisman.github.io/how-to-write-makefile/introduction.html)——由讨论区大佬提供
 
-## grep
+### grep
 
 查找再输出
 
@@ -117,13 +133,13 @@ grep - print lines matching a pattern
 
 在filename中查找含“int”的行，然后补上n再输出
 
-## awk
+### awk
 
 分割然后输出
 
 详见[此](https://blog.51cto.com/bubble/1179036)。
 
-## 查找文件
+### 查找文件
 
 使用find命令并加上-name选项可以在当前目录下递归地查找符合参数所示文件名的文件，并将文件的路径输出至屏幕上。
 
@@ -132,7 +148,7 @@ find - search for files in a directory hierarchy
 用法:find -name 文件名
 ```
 
-## 查找文本
+### 查找文本
 
 ```
 grep - print lines matching a pattern
@@ -144,8 +160,6 @@ grep - print lines matching a pattern
         -n      显示行号
 ```
 
-## sed
-
-## 变量的赋值、运算
+### 变量的赋值、运算
 
 详见[此](https://www.cnblogs.com/hjnzs/p/12218467.html)。
