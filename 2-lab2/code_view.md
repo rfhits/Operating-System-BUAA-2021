@@ -1,3 +1,12 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+- [lab2笔记](#lab2%E7%AC%94%E8%AE%B0)
+  - [page_alloc](#page_alloc)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 # lab2笔记
 
 在pmap.h里的`LIST_HEAD(Page_list, Page);`声明了一个叫做Page_list的结构体，宏替换如下
