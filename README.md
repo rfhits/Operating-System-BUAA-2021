@@ -39,3 +39,9 @@ keywords: 北航 BUAA 北京航空航天大学 6系 计算机 操作系统 2021
 ### lab4
 
 [lab4_code_view-sharinka0715](https://www.cnblogs.com/sharinka0715/p/10776860.html)
+
+## 参考资料
+
+[linux下输入输出重定向](https://blog.csdn.net/hongkangwl/article/details/21000703)
+
+[Linux中GCC编译器运行第一个程序"Helloworld!"](https://blog.csdn.net/wangdd_199326/article/details/77842798)
