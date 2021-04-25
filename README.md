@@ -1,6 +1,6 @@
 # Operating-System-BUAA-2021
 
-keywords: 北航 BUAA 北京航空航天大学 6系 计算机 操作系统 2021
+keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 2021春北航操作系统
 
