@@ -18,19 +18,21 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ### lab2
 
-[lab2_code_view-riyuejiuzhao](https://blog.csdn.net/riyuejiuzhao/article/details/105198758)
+[lab2-code_view-riyuejiuzhao](https://blog.csdn.net/riyuejiuzhao/article/details/105198758)
 
-[Lab2_code_view-littlenyima](https://www.cnblogs.com/littlenyima/p/12764653.html)
+[Lab2-code_view-littlenyima](https://www.cnblogs.com/littlenyima/p/12764653.html)
 
 [lab2思考题解答-Suxy-99](https://www.cnblogs.com/Suxy-99/p/12716863.html)
 
 ### lab3
 
-[lab3_code_view-SivilTaram](https://www.cnblogs.com/SivilTaram/p/oslab3.html)
+[lab3-code_view-riyuejiuzhao](https://blog.csdn.net/riyuejiuzhao/article/details/105550324?)
 
-[lab3_code_view-CindyZhou](https://www.cnblogs.com/CindyZhou/p/12852837.html)
+[lab3-code_view-SivilTaram](https://www.cnblogs.com/SivilTaram/p/oslab3.html)
 
-[lab3_code_view-puublog](https://www.cnblogs.com/puublog/p/10707188.html)
+[lab3-code_view-CindyZhou](https://www.cnblogs.com/CindyZhou/p/12852837.html)
+
+[lab3-code_view-puublog](https://www.cnblogs.com/puublog/p/10707188.html)
 
 [lab3思考题解答-blshuidi](https://www.cnblogs.com/blshuidi/p/13563390.html)
 
@@ -38,7 +40,7 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ### lab4
 
-[lab4_code_view-sharinka0715](https://www.cnblogs.com/sharinka0715/p/10776860.html)
+[lab4-code_view-sharinka0715](https://www.cnblogs.com/sharinka0715/p/10776860.html)
 
 ## 参考资料
 
