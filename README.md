@@ -6,6 +6,10 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ## 往届代码
 
+因为每年课程要求可能会有变化，所以尽量看时间较近的代码。
+
+login256学长的代码也不一定能完全适用于2020春的课程要求，这在lab3中就初见端倪。
+
 [2020春-C7ABT的代码](https://github.com/C7ABT/BUAA_OS_2020/tree/master)
 
 [2020春-refkxh的代码](https://github.com/refkxh/BUAA_OS_2020Spring)
