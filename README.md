@@ -20,6 +20,12 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 ## 代码解析和思考题
 
+### lab1
+
+[lab1思考题解答-moc-85422729](https://www.cnblogs.com/moc-85422729/p/xwc_os_lab1.html)
+
+[lab1思考题解答-Suxy-99](https://www.cnblogs.com/Suxy-99/p/12592665.html)
+
 ### lab2
 
 内存映射
@@ -27,6 +33,8 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 [lab2-code_view-riyuejiuzhao](https://blog.csdn.net/riyuejiuzhao/article/details/105198758)
 
 [Lab2-code_view-littlenyima](https://www.cnblogs.com/littlenyima/p/12764653.html)
+
+[lab2思考题解答-moc-85422729](https://www.cnblogs.com/moc-85422729/p/xwc_os_lab2.html)
 
 [lab2思考题解答-Suxy-99](https://www.cnblogs.com/Suxy-99/p/12716863.html)
 
@@ -50,7 +58,11 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 ### lab4
 
+系统调用
+
 [lab4-code_view-sharinka0715](https://www.cnblogs.com/sharinka0715/p/10776860.html)
+
+[lab4思考题解答-blshuidi](https://www.cnblogs.com/blshuidi/p/13563405.html)
 
 ## 参考资料
 
