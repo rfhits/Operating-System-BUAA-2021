@@ -8,11 +8,11 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 因为每年课程要求可能会有变化，所以尽量看时间较近的代码。
 
-login256学长的代码也不一定能完全适用于2020春的课程要求，这在lab3中就初见端倪。
-
-[2020春-C7ABT的代码](https://github.com/C7ABT/BUAA_OS_2020/tree/master)
+login256学长的代码也不一定能完全适用于2020春的课程要求，在lab3的进程调度中就初见端倪。
 
 [2020春-refkxh的代码](https://github.com/refkxh/BUAA_OS_2020Spring)
+
+[2020春-C7ABT的代码](https://github.com/C7ABT/BUAA_OS_2020/tree/master)
 
 [2019春-login256的代码](https://github.com/login256/BUAA-OS-2019)
 
@@ -69,3 +69,9 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 [linux下输入输出重定向](https://blog.csdn.net/hongkangwl/article/details/21000703)
 
 [Linux中GCC编译器运行第一个程序"Helloworld!"](https://blog.csdn.net/wangdd_199326/article/details/77842798)
+
+[Makefile的写法-bilibili-正月点灯笼](https://www.bilibili.com/video/BV1Mx411m7fm)
+
+## 致谢
+
+感谢所有为这门课提供资料、奉献精力的老师、助教、学长和大佬们！
