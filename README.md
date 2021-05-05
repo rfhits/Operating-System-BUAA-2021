@@ -4,7 +4,7 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 2021春北航操作系统
 
-## 往届代码
+## 往届代码💩
 
 因为每年课程要求可能会有变化，所以尽量看时间较近的代码。
 
@@ -18,7 +18,7 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [2019春-Eadral的代码](https://github.com/Eadral/BUAA_OS_2019)
 
-## 代码解析和思考题
+## 代码解析和思考题🧠
 
 ### lab1
 
@@ -68,7 +68,7 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [2017春-期中试卷部分解答-super_dmz](https://blog.csdn.net/super_dmz/article/details/91351313)
 
-## 参考资料
+## 参考资料📕
 
 [linux下输入输出重定向](https://blog.csdn.net/hongkangwl/article/details/21000703)
 
@@ -76,6 +76,6 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [Makefile的写法-bilibili-正月点灯笼](https://www.bilibili.com/video/BV1Mx411m7fm)
 
-## 致谢
+## 致谢❤
 
 感谢所有为这门课提供资料、奉献精力的老师、助教、学长和大佬们！
