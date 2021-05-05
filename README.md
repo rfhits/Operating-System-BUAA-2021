@@ -64,6 +64,10 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [lab4思考题解答-blshuidi](https://www.cnblogs.com/blshuidi/p/13563405.html)
 
+### 汁源入口😍
+
+[2017春-期中试卷部分解答-super_dmz](https://blog.csdn.net/super_dmz/article/details/91351313)
+
 ## 参考资料
 
 [linux下输入输出重定向](https://blog.csdn.net/hongkangwl/article/details/21000703)
