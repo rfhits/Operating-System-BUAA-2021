@@ -4,6 +4,66 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 2021春北航操作系统
 
+## 实验任务💻
+
+### lab1
+
+1. 请修改include.mk文件，使交叉编译器的路径正确
+2. 完成 readelf.c 中缺少的代码
+3. 填写tools/scse0_3.lds中空缺的部分，将内核调整到正确的位置上
+4. 完成boot/start.S中空缺的部分。设置栈指针，跳转到main函数。
+5. 补全lib/print.c中lp_Print()函数中缺失的部分来实现字符输出。
+
+### lab2
+
+1. 请完成queue.h中的LIST_INSERT_AFTER函数和LIST_INSERT_TAIL函数
+2. 完成mips_detect_memory()函数。
+3. 完成page_init函数
+4. 完成page_alloc和 page_free 函数
+5. 完成boot__pgdir_walk和 pgdir_walk函数
+6. 实现boot__map_ segment函数
+7. 完成page_insert函数
+8. 完成tlb__out函数
+
+### lab3
+
+1. mips_vm_init
+2. env___init
+3. envid2env
+4. env__setup___vm
+5. env__alloc
+6. load__icode_mapper
+7. load_elf and load_icode
+8. env_create and env_create_priority
+9. init.c
+10. env__run
+11. start.s
+12. scse0_3.lds
+13. kclock_init
+14. sched_yield
+
+### lab4
+
+1. 完成msyscall 函数
+2. 完成handle_sys函数
+3. 实现 sys__mem_alloc函数
+4. 实现sys_mem_map函数
+5. 实现sys_mem_unmap函数
+6. 实现sys_yield函数
+7. 实现sys_ipc_recv函数和 sys_ipc_can_send函数
+8. 填写sys_env_alloc函数
+9. 填写fork函数中关于sys_env_alloc的部分和“子进程”执行的部分
+10. 填写duppage函数
+11. 完成page_fault_handler函数
+12. 完成sys__set__pgfault_handler函数
+13. 填写pgfault 函数
+14. 填写sys_set_env_status函数
+15. 填写fork 函数中关于“父进程”执行的部分
+
+### lab5
+
+### lab6
+
 ## 往届代码💩
 
 因为每年课程要求可能会有变化，所以尽量看时间较近的代码。
