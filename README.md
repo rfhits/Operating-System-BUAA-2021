@@ -104,6 +104,8 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [lab3-code_view-riyuejiuzhao](https://blog.csdn.net/riyuejiuzhao/article/details/105550324?)
 
+[lab3-code_view-FFChyan](https://blog.csdn.net/qq_36740940/article/details/89198569)
+
 [lab3-code_view-SivilTaram](https://www.cnblogs.com/SivilTaram/p/oslab3.html)
 
 [lab3-code_view-CindyZhou](https://www.cnblogs.com/CindyZhou/p/12852837.html)
@@ -120,7 +122,17 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 系统调用
 
+[lab4-code_view-FFChyan](https://blog.csdn.net/qq_36740940/article/details/89523911)
+
+[lab4-code_view-CindyZhou](https://www.cnblogs.com/CindyZhou/p/12858468.html)
+
 [lab4-code_view-sharinka0715](https://www.cnblogs.com/sharinka0715/p/10776860.html)
+
+[lab4-code_view-SivilTaram](https://www.cnblogs.com/SivilTaram/p/os_lab4.html)
+
+[lab4-code_view-p_wk](https://www.cnblogs.com/p-wk/p/13183479.html)
+
+[lab4-Thinkings-Suxy-99](https://www.cnblogs.com/Suxy-99/p/12969200.html)
 
 [lab4思考题解答-blshuidi](https://www.cnblogs.com/blshuidi/p/13563405.html)
 
