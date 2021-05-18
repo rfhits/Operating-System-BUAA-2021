@@ -20,23 +20,23 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 2. 完成mips_detect_memory()函数。
 3. 完成page_init函数
 4. 完成page_alloc和 page_free 函数
-5. 完成boot__pgdir_walk和 pgdir_walk函数
-6. 实现boot__map_ segment函数
+5. 完成boot_pgdir_walk和 pgdir_walk函数
+6. 实现boot_map_ segment函数
 7. 完成page_insert函数
-8. 完成tlb__out函数
+8. 完成tlb_out函数
 
 ### lab3
 
 1. mips_vm_init
-2. env___init
+2. env_init
 3. envid2env
-4. env__setup___vm
-5. env__alloc
-6. load__icode_mapper
+4. env_setup_vm
+5. env_alloc
+6. load_icode_mapper
 7. load_elf and load_icode
 8. env_create and env_create_priority
 9. init.c
-10. env__run
+10. env_run
 11. start.s
 12. scse0_3.lds
 13. kclock_init
@@ -55,7 +55,7 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 9. 填写fork函数中关于sys_env_alloc的部分和“子进程”执行的部分
 10. 填写duppage函数
 11. 完成page_fault_handler函数
-12. 完成sys__set__pgfault_handler函数
+12. 完成sys_set_pgfault_handler函数
 13. 填写pgfault 函数
 14. 填写sys_set_env_status函数
 15. 填写fork函数中关于“父进程”执行的部分
