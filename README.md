@@ -58,11 +58,17 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 12. 完成sys__set__pgfault_handler函数
 13. 填写pgfault 函数
 14. 填写sys_set_env_status函数
-15. 填写fork 函数中关于“父进程”执行的部分
+15. 填写fork函数中关于“父进程”执行的部分
 
 ### lab5
 
 ### lab6
+
+### 挑战性任务
+
+[lab4_challenge-信号量实现-lpxofbuaa](https://github.com/lpxofbuaa/BUAA_OS_2019/tree/lab4-challenge)
+
+[lab5_challenge-内存保护-VOIDMalkuth](https://github.com/VOIDMalkuth/BUAA_OS_2019_Code/tree/master/Lab5-Challenge)
 
 ## 往届代码💩
 
@@ -79,6 +85,12 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 [2019春-Eadral的代码](https://github.com/Eadral/BUAA_OS_2019)
 
 ## 代码解析和思考题🧠
+
+[lab1~6实验报告-shh](https://github.com/shh2000/BUAA-OS-2019/tree/master/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A)
+
+[lab1~6实验报告-VOIDMalkuth](https://github.com/VOIDMalkuth/BUAA_OS_2019_Code/tree/master/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A)
+
+[lab1~6实验报告-hky1999](https://github.com/hky1999/BUAA_OS_Files/tree/master/%E5%AE%9E%E9%AA%8C%E6%8A%A5%E5%91%8A)
 
 ### lab1
 
