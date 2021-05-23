@@ -6,6 +6,8 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ## 实验任务💻
 
+如果感到有必要对整个lab进行全面的检查，这些任务清单可以方便你逐个比较。当然，可以用base64把自己的repo弄到本地，再使用专业的比较软件进行对比。
+
 ### lab1
 
 1. 请修改include.mk文件，使交叉编译器的路径正确
@@ -62,9 +64,20 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ### lab5
 
+1. 完成sys_write_dev函数和sys_read_dev 函数，并且在 user/lib.h,user/syscall_lib.c 中完成用户态的相应系统调用的接口。
+2. 完成 fs/ide.c 中的ide_write函数和ide_read函数，实现对磁盘的读写操作。
+3. 请完成 fs/fs.c中的 free_block 函数
+4. 完成 fs/fsformat.c 中的 create_file 函数
+5. 完成fs/fs.c 中的 diskaddr 函数用来计算指定磁盘块对应的虚存地址。
+6. 实现 map_block 函数，检查指定的磁盘块是否已经映射到内存，如果没有，分配一页内存来保存磁盘上的数据。对应地，完成 unmap_block 函数，用于解除磁盘块和物理内存之间的映射关系
+7. 补全 fs.c 中的 dir_lookup 函数，查找某个目录下是否存在指定的文件
+8. 完成 user/file.c 中的 open 函数。
+9. 参考 user/fd.c 中的 write 函数，完成fd.c 中的 read 函数。
+10. 完成 user/fsipc.c 中的 fsipc_remove函数、user/file.c中的remove函数，以及fs/serv.c中的serve_remove 函数，实现删除指定路径的文件的功能。
+
 ### lab6
 
-### 挑战性任务
+### 挑战性任务💪
 
 [lab4_challenge-信号量实现-lpxofbuaa](https://github.com/lpxofbuaa/BUAA_OS_2019/tree/lab4-challenge)
 
@@ -130,6 +143,8 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [lab4-code_view-FFChyan](https://blog.csdn.net/qq_36740940/article/details/89523911)
 
+[lab4-code_view-Nortonary](https://www.cnblogs.com/Nortonary/p/14752529.html)
+
 [lab4-code_view-CindyZhou](https://www.cnblogs.com/CindyZhou/p/12858468.html)
 
 [lab4-code_view-sharinka0715](https://www.cnblogs.com/sharinka0715/p/10776860.html)
@@ -140,7 +155,13 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [lab4-Thinkings-Suxy-99](https://www.cnblogs.com/Suxy-99/p/12969200.html)
 
-[lab4思考题解答-blshuidi](https://www.cnblogs.com/blshuidi/p/13563405.html)
+[lab4-Thinkings-blshuidi](https://www.cnblogs.com/blshuidi/p/13563405.html)
+
+### lab5
+
+[lab5-code_view-Nortonary](https://www.cnblogs.com/Nortonary/p/14787974.html)
+
+[lab5-Thinkings-blshuidi](https://www.cnblogs.com/blshuidi/p/13563416.html)
 
 ## 汁源入口😍
 
@@ -156,6 +177,6 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 [Makefile的写法-bilibili-正月点灯笼](https://www.bilibili.com/video/BV1Mx411m7fm)
 
-## 致谢❤
+## 致谢❤️
 
 感谢所有为这门课提供资料、奉献精力的老师、助教、学长和大佬们！
