@@ -144,12 +144,11 @@ Usage: fsformat gxemul/fs.img files...\n\
 
 这个函数是先在内存里面把磁盘内容给组织好，再写入磁盘中，就类似于我们在数据结构里面，先存好图什么的，再写入文件里面。
 
-## 全局变量
+### 全局变量
 
 这个是一个很复杂的文件，里面有几个关键的全局变量，还有结构体的定义，先列在下面：
 
 ```c
-
 #define NBLOCK 1024 //一块磁盘里面的block数目
 uint32_t nbitblock; // 用于存储bitmap的block数目
 uint32_t nextbno;   // 下一块可用的block编号
@@ -203,7 +202,7 @@ struct Super {
 };
 ```
 
-## init_disk()
+### init_disk()
 
 用于初始化磁盘
 
@@ -214,14 +213,14 @@ struct Super {
 - 然后开始初始化bitmap
 - 设置超级块相关的内容
 
-## void write_file(struct File *dirf, const char *path)
+### void write_file(struct File *dirf, const char *path)
 
 向dirf下面写入path所表示的文件
 
 - 先创建一个block大小+1的buffer
-- 利用**create_file（）**在**dirf**下面新建一个文件索引结构体，记做**\*target**
+- 利用**create_file（）**在**dirf**下面新建一个文件索引结构体，记做**target**
 - 获取文件名，也就是把类似于“dir/subdir/filename.xxx”给变成“filename.xxx”
-- 把获取到的文件名给拷贝到**\*target**里面
+- 把获取到的文件名给拷贝到**target**里面
 - 使用lseek(fd, 0, SEEK_END)获取文件大小，（在此前已经用open来打开了fd文件）
 - 然后设置文件类型为普通文件
 - 使用 lseek(fd, 0, SEEK_SET);把fd文件指针重新设置为文件开头
@@ -231,9 +230,9 @@ struct Super {
   - 其中，iblk指的是当前文件里面存在的引用指针数
   - 整个文件读取结束之后，关闭文件
 
-## struct File *create_file(struct File *dirf)
+### struct File *create_file(struct File *dirf)
 
-这个函数的作用是，在**\*dirf**这个目录文件下面，创建一个新的文件索引
+这个函数的作用是，在**dirf**这个目录文件下面，创建一个新的文件索引
 
 目录型的文件大概是这样子的。
 
@@ -247,11 +246,11 @@ struct Super {
 - 如果目前存在着block，那么遍历**最后一块**blcok，查找还有没有空闲的文件索引（也就是文件名为空）
 - 如果不能找到空闲的文件索引，那么就创建一个新的block
 
-## void flush_bitmap()
+### void flush_bitmap()
 
 就是把**nextbno**之前的所有块对应的bitmap标记为0，也就是不可用
 
-```c
+```cpp
 void flush_bitmap() {
     int i;
     // update bitmap, mark all bit where corresponding block is used.
@@ -279,7 +278,7 @@ void flush_bitmap() {
 
 说实话，很让人头疼
 
-# fsserver
+## fsserver
 
 这个是文件相关操作的服务
 
@@ -304,7 +303,7 @@ void umain(void)
 
 所以大概就是运行了4个函数，接下来分别说这几个函数
 
-## void serve_init(void)
+### void serve_init(void)
 
 ```c
 struct Filefd {
@@ -886,7 +885,7 @@ void file_close(struct File *f)
 
 ```
 
-# void serve(void)
+## void serve(void)
 
 终于结束检查，开始文件服务了！
 
@@ -980,7 +979,7 @@ void serve(void)
 }
 ```
 
-## serve_open(u_int envid, struct Fsreq_open *rq)
+### serve_open(u_int envid, struct Fsreq_open *rq)
 
 ```c
 void
@@ -1029,7 +1028,7 @@ serve_open(u_int envid, struct Fsreq_open *rq)
 }
 ```
 
-## open_alloc(struct Open **o)
+### open_alloc(struct Open **o)
 
 ```c
 int
@@ -1059,7 +1058,7 @@ open_alloc(struct Open **o)
 }
 ```
 
-# fstest.c
+## fstest.c
 
 终于结束了文件服务，现在这个程序是用来测试文件服务是否正确的
 
@@ -1118,7 +1117,7 @@ void umain()
 /////////////////////////////////////////////////////////////////////
         if ((r = close(fdnum)) < 0) {
                 user_panic("close /newmotd: %d", r);
-        }	
+        }
         writef("file rewrite is good\n");
     ///////////////////
     //把这个文件给删除了，然后再看看能否打开。应该是不能打开的
