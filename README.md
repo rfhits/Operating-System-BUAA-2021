@@ -72,7 +72,7 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 6. 实现 map_block 函数，检查指定的磁盘块是否已经映射到内存，如果没有，分配一页内存来保存磁盘上的数据。对应地，完成 unmap_block 函数，用于解除磁盘块和物理内存之间的映射关系
 7. 补全 fs.c 中的 dir_lookup 函数，查找某个目录下是否存在指定的文件
 8. 完成 user/file.c 中的 open 函数。
-9. 参考 user/fd.c 中的 write 函数，完成fd.c 中的 read 函数。
+9. 参考 user/fd.c 中的 write 函数，完成 read 函数
 10. 完成 user/fsipc.c 中的 fsipc_remove函数、user/file.c中的remove函数，以及fs/serv.c中的serve_remove 函数，实现删除指定路径的文件的功能。
 
 ### lab6
