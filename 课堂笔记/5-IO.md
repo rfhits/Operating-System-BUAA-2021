@@ -1,5 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
 - [IO](#io)
@@ -176,7 +178,7 @@ I/O操作由程序发起，在操作完成时（如数据可读或已经写入)�
 
 进程请求IO后，CPU调度其他进程，然后每次都要检查是不是IO完成。
 
-![](/img/中断驱动方式的处理过程.jpg)
+![](/img/课堂笔记/5-IO/中断驱动方式的处理过程.jpg)
 
 优点：在**外设进行数据处理**时，CPU不必等待，可以继续执行该程序或其他程序，提高了CPU利用率；可以处理不确定事件。
 缺点：每次输入/输出数据都要中断CPU，多次中断浪费CPU时间，只适于数据传输率较低的设备。
@@ -191,7 +193,7 @@ I/O操作由程序发起，在操作完成时（如数据可读或已经写入)�
 2. DMA控制器完成内存与外设的成批数据交换；
 3. 在操作完成时由DMA控制器向CPU发出中断。
 
-![](/img/DMA.jpg)
+![](/img/课堂笔记/5-IO/DMA.jpg)
 
 优点：CPU只需干预I/O操作的开始和结束，而**后续成批的数据读写则无需CPU控制**，适于**高速设备**。
 
@@ -200,7 +202,7 @@ I/O操作由程序发起，在操作完成时（如数据可读或已经写入)�
 - 数据传送的方向、存放数据的内存地址及传送数据的长度等都由CPU控制，占用了CPU时间。
 - 每个设备占用一个DMA控制器，当设备增加时，需要增加新的DMA控制器。
 
-![](/img/中断驱动和DMA的异同.jpg)
+![](/img/课堂笔记/5-IO/中断驱动和DMA的异同.jpg)
 
 可以看到，进程都发起了request，不过DMA会直接把数据搬运到内存里，而中断仍然需要CPU和寄存器交互。也就是说，中断驱动的视角下，内存和外设之间的关系被撕裂了。
 
