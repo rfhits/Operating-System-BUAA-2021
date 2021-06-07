@@ -35,47 +35,47 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ## 写在前面🖊
 
-本repo不提供代码，因为网络上的轮子实在是太多了，只记录学习笔记以及上机内容。
+本repo**不提供代码**，因为网络上的轮子实在是太多了，只记录学习笔记以及上机内容。
 
 ## 任务列表✔
 
-如果感到有必要对整个lab进行全面的检查，这些任务列表可以方便你逐个比较。当然，可以用base64把自己的repo弄到本地，再使用专业的比较软件进行对比。
+如果感到有必要对整个lab进行全面的检查，这些任务列表可以方便你逐个比较。当然，可以用base64把自己的repo弄到本地，再使用专业的比较软件（指Beyond Compare）进行对比。
 
 ### lab1
 
 1. 请修改`include.mk`
-2. 完成 `readelf.c`
+2. 完成 `readelf/readelf.c`
 3. 填写`tools/scse0_3.lds`中空缺的部分，将内核调整到正确的位置上
 4. 完成`boot/start.S`
 5. 补全`lib/print.c: lp_Print()`
 
 ### lab2
 
-1. 完成`queue.h: LIST_INSERT_AFTER(), LIST_INSERT_TAIL()`
-2. 完成`mips_detect_memory()`
-3. 完成`page_init()`
-4. 完成`page_alloc, page_free()`
-5. 完成`boot_pgdir_walk, pgdir_walk()`
-6. 实现`boot_map_ segment()`
-7. 完成`page_insert()`
-8. 完成`tlb_out()`
+1. 完成`include/queue.h: LIST_INSERT_AFTER(), LIST_INSERT_TAIL()`
+2. 完成`mm/pamp.c: mips_detect_memory()`
+3. 完成`mm/pamp.c: page_init()`
+4. 完成`mm/pamp.c: page_alloc, page_free()`
+5. 完成`mm/pamp.c: boot_pgdir_walk, pgdir_walk()`
+6. 实现`mm/pamp.c: boot_map_ segment()`
+7. 完成`mm/pamp.c: page_insert()`
+8. 完成`mm/tlb_asm.S: tlb_out()`
 
 ### lab3
 
-1. `mips_vm_init`
-2. `env_init`
-3. `envid2env`
-4. `env_setup_vm`
-5. `env_alloc`
+1. `mm/pmap.c: mips_vm_init()`
+2. `lib/env.c: env_init`
+3. `lib/env.c: envid2env`
+4. `lib/env.c: env_setup_vm`
+5. `lib/env.c: env_alloc`
 6. `load_icode_mapper`
 7. `load_elf and load_icode`
-8. `env_create and env_create_priority`
-9. `init.c`
-10. `env_run`
-11. `start.s`
-12. `scse0_3.lds`
-13. `kclock_init`
-14. `sched_yield`
+8. `lib/env.c: env_create(), env_create_priority()`
+9. 完成`init/init.c`
+10. `lib/env.c: env_run`
+11. 完成`boot/start.S`
+12. `tools/scse0_3.lds`
+13. `lib/kclock.c: kclock_init()`
+14. `lib/sched.c: sched_yield()`
 
 ### lab4
 
@@ -87,13 +87,13 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 6. 实现`sys_yield()`
 7. 实现`sys_ipc_recv(), sys_ipc_can_send()`
 8. 填写`sys_env_alloc()`
-9. 填写fork()中关于sys_env_alloc的部分和“子进程”执行的部分
+9. 填写`user/fork.c: fork()`中关于sys_env_alloc的部分和“子进程”执行的部分
 10. 填写`duppage()`
 11. 完成`page_fault_handler()`
 12. 完成`sys_set_pgfault_handler()`
 13. 填写`pgfault()`
 14. 填写`sys_set_env_status()`
-15. 填写fork()中关于“父进程”执行的部分
+15. 填写`user/fork.c: fork()`中关于“父进程”执行的部分
 
 ### lab5
 
