@@ -1,29 +1,15 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
-
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
-
 - [Operating-System-BUAA-2021](#operating-system-buaa-2021)
-  - [写在前面🖊](#写在前面)
-  - [任务列表✔](#任务列表)
-    - [lab1](#lab1)
-    - [lab2](#lab2)
-    - [lab3](#lab3)
-    - [lab4](#lab4)
-    - [lab5](#lab5)
-    - [lab6](#lab6)
-    - [挑战性任务💪](#挑战性任务)
-  - [往届代码💩](#往届代码)
-  - [代码解析和思考题🧠](#代码解析和思考题)
-    - [lab1](#lab1-1)
-    - [lab2](#lab2-1)
-    - [lab3](#lab3-1)
-    - [lab4](#lab4-1)
-    - [lab5](#lab5-1)
-  - [汁源入口😍](#汁源入口)
-  - [参考资料📕](#参考资料)
-  - [致谢❤️](#致谢️)
+  - [写在前面🖊](#%E5%86%99%E5%9C%A8%E5%89%8D%E9%9D%A2%F0%9F%96%8A)
+  - [任务列表✔](#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8%E2%9C%94)
+  - [往届代码💩](#%E5%BE%80%E5%B1%8A%E4%BB%A3%E7%A0%81)
+  - [代码解析和思考题🧠](#%E4%BB%A3%E7%A0%81%E8%A7%A3%E6%9E%90%E5%92%8C%E6%80%9D%E8%80%83%E9%A2%98)
+  - [汁源入口😍](#%E6%B1%81%E6%BA%90%E5%85%A5%E5%8F%A3)
+  - [参考资料📕](#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99)
+  - [致谢❤️](#%E8%87%B4%E8%B0%A2)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -67,8 +53,8 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 3. `lib/env.c: envid2env`
 4. `lib/env.c: env_setup_vm`
 5. `lib/env.c: env_alloc`
-6. `load_icode_mapper`
-7. `load_elf and load_icode`
+6. `lib/env.c: load_icode_mapper()`
+7. `lib/kernel_elfloader.c: load_elf()`和`lib/env.c: load_icode()`
 8. `lib/env.c: env_create(), env_create_priority()`
 9. 完成`init/init.c`
 10. `lib/env.c: env_run`
@@ -79,20 +65,20 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 ### lab4
 
-1. 完成`msyscall()`
-2. 完成`handle_sys()`
-3. 实现`sys__mem_alloc()`
-4. 实现`sys_mem_map()`
-5. 实现`sys_mem_unmap()`
-6. 实现`sys_yield()`
-7. 实现`sys_ipc_recv(), sys_ipc_can_send()`
-8. 填写`sys_env_alloc()`
+1. 完成`user/syscall_wrap.S: msyscall()`
+2. 完成`lib/syscall.S: handle_sys()`
+3. 实现`lib/syscall_all.c: sys__mem_alloc()`
+4. 实现`lib/syscall_all.c: sys_mem_map()`
+5. 实现`lib/syscall_all.c: sys_mem_unmap()`
+6. 实现`lib/syscall_all.c: sys_yield()`
+7. 实现`lib/syscall_all.c: sys_ipc_recv(), sys_ipc_can_send()`
+8. 填写`lib/syscall_all.c: sys_env_alloc()`
 9. 填写`user/fork.c: fork()`中关于sys_env_alloc的部分和“子进程”执行的部分
-10. 填写`duppage()`
-11. 完成`page_fault_handler()`
-12. 完成`sys_set_pgfault_handler()`
-13. 填写`pgfault()`
-14. 填写`sys_set_env_status()`
+10. 填写`user/fork.c: duppage()`
+11. 完成`lib/traps.c: page_fault_handler()`
+12. 完成`lib/syscall_all.c: sys_set_pgfault_handler()`
+13. 填写`user/fork.c: pgfault()`
+14. 填写`lib/syscall_all.c: sys_set_env_status()`
 15. 填写`user/fork.c: fork()`中关于“父进程”执行的部分
 
 ### lab5
