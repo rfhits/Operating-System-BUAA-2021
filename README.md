@@ -1,5 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 - [Operating-System-BUAA-2021](#operating-system-buaa-2021)
@@ -49,15 +51,15 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 ### lab3
 
 1. `mm/pmap.c: mips_vm_init()`
-2. `lib/env.c: env_init`
-3. `lib/env.c: envid2env`
-4. `lib/env.c: env_setup_vm`
-5. `lib/env.c: env_alloc`
+2. `lib/env.c: env_init()`
+3. `lib/env.c: envid2env()`
+4. `lib/env.c: env_setup_vm()`
+5. `lib/env.c: env_alloc()`
 6. `lib/env.c: load_icode_mapper()`
 7. `lib/kernel_elfloader.c: load_elf()`和`lib/env.c: load_icode()`
 8. `lib/env.c: env_create(), env_create_priority()`
 9. 完成`init/init.c`
-10. `lib/env.c: env_run`
+10. `lib/env.c: env_run()`
 11. 完成`boot/start.S`
 12. `tools/scse0_3.lds`
 13. `lib/kclock.c: kclock_init()`
