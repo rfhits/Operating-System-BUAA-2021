@@ -199,7 +199,7 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 ## 汁源入口😍
 
-[2021春-习题汇总-rfhits](https://github.com/rfhits/Operating-System-BUAA-2021/blob/main/2021%E6%98%A5-%E7%B3%BB%E7%BB%9F%E6%B1%87%E6%80%BB-rfhits.docx)
+[2021春-习题汇总-rfhits](https://github.com/rfhits/Operating-System-BUAA-2021/blob/main/2021%E6%98%A5-%E4%B9%A0%E9%A2%98%E6%B1%87%E6%80%BB-rfhits.docx)
 
 [2017春-期中试卷部分解答-super_dmz](https://blog.csdn.net/super_dmz/article/details/91351313)
 
