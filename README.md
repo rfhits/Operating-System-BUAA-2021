@@ -25,6 +25,8 @@ keywords: BUAA OS 2021 北京航空航天大学 6系 计算机 操作系统 2021
 
 本repo**不提供代码**，因为网络上的轮子实在是太多了，只记录学习笔记以及上机内容。
 
+欢迎fork&pull request。
+
 ## 任务列表✔
 
 如果感到有必要对整个lab进行全面的检查，这些任务列表可以方便你逐个比较。当然，可以用base64把自己的repo弄到本地，再使用专业的比较软件（指Beyond Compare）进行对比。
@@ -196,6 +198,8 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 鸽了
 
 ## 汁源入口😍
+
+[2021春-习题汇总-rfhits](https://github.com/rfhits/Operating-System-BUAA-2021/blob/main/2021%E6%98%A5-%E7%B3%BB%E7%BB%9F%E6%B1%87%E6%80%BB-rfhits.docx)
 
 [2017春-期中试卷部分解答-super_dmz](https://blog.csdn.net/super_dmz/article/details/91351313)
 
