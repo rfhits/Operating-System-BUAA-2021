@@ -207,6 +207,8 @@ login256学长的代码也不一定能完全适用于2020春的课程要求，�
 
 ## 参考资料📕
 
+[编译链接原理](https://www.bilibili.com/video/BV1FL411g7m5/)
+
 [linux下输入输出重定向](https://blog.csdn.net/hongkangwl/article/details/21000703)
 
 [Linux中GCC编译器运行第一个程序"Helloworld!"](https://blog.csdn.net/wangdd_199326/article/details/77842798)
